@@ -1,26 +1,13 @@
 
-public class ScientificCal implements Calculator {
-	static int a=2;
-	static int b=3;
+public class ScientificCal extends Calculator2 {
 	
-	public void sum(){
-		System.out.println(a+b);
-	}
 	
-	public  void dif(){
-		System.out.println(a-b);
-	}
-	public  void product(){
-       System.out.println(a*b);
-	}
-	
-	public  void square(){
-		   System.out.println("square of a");
-	       System.out.println(a*a);
+	public  int square(int a){		   
+	       return a*a ;
 		}
-	public  void cube(){
-		   System.out.println("cube of a");
-	       System.out.println(a*a*a);
+	
+	public  int cube(int a){
+	       return a*a*a;
 		}
 	
 }
