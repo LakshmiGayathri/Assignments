@@ -1,44 +1,34 @@
 
 public class Calculator2 {
+private static int a;
+private static int b;
 
-  public int sum(int a,int b){
-	return a+b;	
+  public void setAdd(int a,int b)
+  {
+	this.a=a;
+	this.b=b;
+	}
+  
+  public int getAdd()
+  {
+	return a+b;
+	
 	}
 
-  public int sum(int a,int b,int c){
-	return a+b+c;
+ 
+  public void setProduct(int a,int b)
+  {
+	  this.a=a;
+	  this.b=b;
    }
-  public int sum(int a,int b,int c,int d){
-	return a+b+c+d;
-   }
-  public int sum(int a,int b,int c,int d,int e){
-		return a+b+c+d+e;
-	   }
-  public int diff(int a,int b){
-	return a-b;
-   }
-  public int diff(int a,int b,int c){
-	return a-b-c;
-   }
-   public int diff(int a,int b,int c,int d){
-	return a-b-c-d;
-   }
-   public int diff(int a,int b,int c,int d,int e){
-		return a-b-c-d-e;
-	   }
-  public int product(int a,int b){
+  
+  public int getProduct()
+  {
 	return a*b;
-   }
-
-	public int product(int a,int b,int c){
-		return a*b*c;
+	
 	}
-   public int product(int a,int b,int c,int d){
-	return a*b*c*d;
-    }
-   public int product(int a,int b,int c,int d,int e){
-		return a*b*c*d*e;
-	    }
+
+	
 }
 
 
