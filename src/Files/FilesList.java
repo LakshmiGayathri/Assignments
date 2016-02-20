@@ -17,15 +17,17 @@ public class FilesList {
 		      File[] listOfFiles = folder1.listFiles();
 		      for (int i = 0; i < listOfFiles.length; i++) {
 		        if (listOfFiles[i].isFile()) {	
-		          for(j=1;j>=1;j++){System.out.print("\t");}
+		         
+		          
 		          System.out.println("File:" + listOfFiles[i].getName());
+		          
 		        } else 
 		         if (listOfFiles[i].isDirectory()) {
 		          
 		          s = folder1.getAbsolutePath()+"/"+listOfFiles[i].getName();
 		          File folder2 = new File(s);
 		          j++;
-		          for(j=1;j>1;j++){System.out.print("\t");}
+		          
 		          System.out.println("Directory: " + listOfFiles[i].getName());	
 		          
 		          recursion(s,folder2);  //recursive method is called if it is folder
