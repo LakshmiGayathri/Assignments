@@ -14,7 +14,7 @@ public class ComparatorSortStrng {
 	public static void main(String[] args) {
 		ArrayList<String> aList=new ArrayList<String>();
 		aList.add("Hello");
-		aList.add(",");
+		aList.add("..");
 		aList.add("Welcome");
 		aList.add("to");
 		aList.add("Java");
